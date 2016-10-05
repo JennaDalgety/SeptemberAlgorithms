@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" type="text/css" 
+  href="http://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.css">
+  <link rel="stylesheet" 
+  href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.0/themes/smoothness/jquery-ui.css">
+  <style>
+
+  div#wrapper{
+    height: auto;
+    width: auto;
+  }
+
+  div#name{
+    vertical-align: top;
+  }
+  div#question1{
+    vertical-align: top;
+  }
+
+  </style>
+  <script src="http://code.jquery.com/jquery-2.2.4.js"  
+  integrity="sha256-iT6Q9iMJYuQiMWNd9lDyBUStIq/8PuOW33aOqmvFpqI=" 
+  crossorigin="anonymous"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.0/jquery-ui.min.js"></script>  
+  <script type="text/javascript">
+
+    $(document).ready(function(){
+      console.log("jQuery has loaded properly")
+
+      var userAnswers = [];
+
+      var questionsAnswers = [{
+        'What is the most watched sport across the globe?:':'soccer',
+        'How many dwarves were there in "Snow White"?':'7',
+        'What is the national bird of the USA?':'bald eagle'
+      }];
+
+
+      var person = prompt("Please enter your name", "Harry Potter");
+      if (person != null) {
+        document.getElementById("name").innerHTML =
+        "Hello " + person + "!  Let's see if you can answer some of my questions.";
+      }
+
+      var answer1 = 
+      document.getElementById("question1").innerHTML =
+        "Question 1: " + questionsAnswers(0);
+
+    });
+
+  </script>
+  <title>Q + A</title>
+</head>
+<body>
+  
+  <div id="wrapper">
+
+    <div id="name"></div>
+
+    <div id="question1"><input type="text" name="userAnswer1"></div>
+
+  </div>
+
+</body>
+</html>
