@@ -60,16 +60,22 @@
 
 
 
-// function thisThat(arr){
+// function thisThat(num1, num2){
+  
+//   var arr = [];
 
-//   var num1 = 0;
-
-//   for(var num2 = 1; num2 < arr.length; num2++){
-//     if(arr[num1] = arr[num2])
+//   for(var i = 0; i < num1; i++){
+//     arr[i] = num2;
 //   }
+//   if(num1 === num2){
+//     console.log('Jinx!');
+//   }
+//   console.log(arr); 
 // }
 
-// thisThat(1,2);
+// var number1 = 4;
+// var number2 = 4;
+// thisThat(number1, number2);
 
 
 

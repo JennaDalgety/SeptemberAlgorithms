@@ -195,15 +195,23 @@
 
 
 
-// var arr = [1,2,3,4,5,6];
+// function swap(someArray){
 
-// for(var i = 0; i < arr.length; i++){
-//   if(arr[i] % 2 === 0){
-//     arr[i] = arr[arr.length + i];
-//   }
-// }
+//   var len = someArray.length / 2;
+//   var lastEle = someArray.length - 1;
 
-// console.log(arr);
+
+//   for(var i = 0; i < len; i++){
+//     if(i % 2 === 0){
+//       temp = someArray[i];
+//       someArray[i] = someArray[lastEle - i];
+//       someArray[lastEle - i] = temp;
+//     };
+//   };
+//   return someArray;
+// };
+
+// console.log(swap([1,2,3,4,5,6]));
 
 
 

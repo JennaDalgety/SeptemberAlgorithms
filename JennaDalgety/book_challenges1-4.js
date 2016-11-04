@@ -16,6 +16,41 @@
 
 
 
+// function mathHelp(){
+
+//   var xInt = //value of x where y = 0
+
+//   // y = mx + b
+// }
+
+
+
+// function poorKenny(){
+
+//   var chaos = Math.random()* (.3 - .00) + .00;
+
+//   console.log(chaos);
+  
+//   if(chaos < .1){
+//     console.log("You're stuck in a volcano!");
+//   }
+//   else if(chaos < 0.15){
+//     console.log("You're stuck in a tsunami!");
+//   }
+//   else if(chaos < .2){
+//     console.log("You're stuck in an earthquake!");
+//   }
+//   else if(chaos < .25){
+//     console.log("You're stuck in a blizzard!");
+//   }
+//   else if(chaos < .3){
+//     console.log("You're stuck in a meteor strike!");
+//   }
+// }
+// poorKenny();
+
+
+
 // function soaringIQ(iq){
 
 //   var i = 0.01;
@@ -28,6 +63,7 @@
 // }
 
 // soaringIQ(101);
+
 
 
 // function letterGrade(score){
@@ -111,3 +147,6 @@
 // }
 
 // accurateGrade(78);
+
+
+
